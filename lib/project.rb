@@ -18,6 +18,6 @@ class Project
     # binding.pry
     backer.back_project(self)
 
-    self.backers
+    # self.backers
   end
 end
