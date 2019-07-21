@@ -14,10 +14,10 @@ class Project
   end
 
   def add_backer(backer)
-    @backers << backer
-    # binding.pry
-    backer.back_project(@project)
-
-    # self.backers
+    # @backers << backer
+    # # binding.pry
+    # backer.back_project(self)
+    #
+    # # self.backers
   end
 end
