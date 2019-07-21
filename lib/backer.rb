@@ -14,11 +14,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-    # binding.pry
     project.add_backer(self)
     self.backed_projects
-
-    # add_backer(self)
-    # More Advanced #back_project also adds the backer to the project's backers array
   end
 end
